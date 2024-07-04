@@ -153,7 +153,7 @@ const Quiz = ({
               <button
                 key={index}
                 onClick={() => handleAnswerOptionClick(option.isCorrect)}
-                className="bg-[rgba(0,0,200,0.3)] text-white p-2 rounded hover:bg-blue-700 transition"
+                className="bg-[rgba(0,0,200,0.3)] text-white p-2 rounded md:hover:bg-blue-700 transition"
               >
                 {option.answerText}
               </button>
